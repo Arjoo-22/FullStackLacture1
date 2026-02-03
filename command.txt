@@ -1,0 +1,12 @@
+pwd
+ls 
+cd desktop
+mkdir test
+cd test
+touch file.txt
+rm file.txt
+cd ..
+git init
+git status
+
+
