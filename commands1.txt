@@ -1,0 +1,45 @@
+cat file1.txt
+cat file1.txt file2.txt
+cat>newfile.txt
+
+less bigfile.txt
+ 
+
+grep "hello" file.txt
+grep -i "hello" file1.txt
+
+chmod 755 file.txt
+
+chown arjoo file1.txt
+
+echo "Hello Guys"> file.txt
+
+
+
+name="Arjoo"
+age=20
+echo "$name"
+echo "my age is $age"
+
+
+age=24
+if[$age -ge 18];then
+  echo "you are adult"
+else
+  echo "you are child"
+fi
+
+
+
+
+for i in 1 2 3 4 5;do
+   echo "Number is $i"
+done
+
+
+for i in {1..10};do
+   echo " count:$i"
+done
+
+
+
