@@ -11,3 +11,4 @@ const data=fs.writeFileSync('example.txt',"This is an example file",
 console.log("File created Successfully");
 console.log("File System operation completed");
 
+ 
